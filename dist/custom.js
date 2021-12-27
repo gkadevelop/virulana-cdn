@@ -1,13 +1,10 @@
-<script>
 let metaTag = document.createElement('meta')
 metaTag.setAttribute('name', 'facebook-domain-verification')
 metaTag.setAttribute('content', '4x11uvip5o0pp6izphxmmpqs2yspks')
 document.getElementsByTagName('head')[0].appendChild(metaTag)
-</script>
 
-<script>
 $(document).ready(function(){
-         $('.js-search-input').attr('placeholder', '¿Qué estás buscando?');
+    $('.js-search-input').attr('placeholder', '¿Qué estás buscando?');
 });
 currentTitle =  document.title
 var intervall = null;
@@ -33,9 +30,6 @@ intervalTitle();
 clearIntervalTitle()
 }
 })
-</script>
-
-<script>
 
 let currentUrl = window.location.href
 //-------INSERT CACE IMAGE-------//
@@ -302,8 +296,6 @@ loginForm.appendChild(politicsContainerFormsCloned)
 loginForm.insertAdjacentHTML('afterend','<div id="optin-XHaqiPQV" data-type="inline"></div>')
 }
 
-</script>
-<script>
 /*-------------------DETECT IPHONE----------------------*/
 let isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream
 
@@ -317,9 +309,9 @@ buttons[i].classList.remove("col-6")
 buttons[i].classList.add("col-12")
 }
 }
-</script>
+
 <script type="text/javascript" src="https://optin.myperfit.com/res/js/virulana/leAAF5oM.js"></script>
-<script>
+
 /*------------TOGGLE DISPLAY LOGIN/SIGNUP FORM------*/
 let checkArr = document.getElementsByClassName('checkmailing')
 let arr = [...checkArr]
@@ -344,8 +336,7 @@ document.getElementById('optin-leAAF5oM').classList.toggle('d-block')
 }
 arr[0].addEventListener('change', toggleDisplay)
 }
-</script>
-<script>
+
 let currentlyUrl = window.location.href
 
 /*---------------WITHOUT OUTSTOCK LABEL-----------------*/
@@ -417,7 +408,6 @@ if(currentlyUrl ==='https://www.virulana.com.ar/mopas-y-mopy-sets/'){
 let boxUniqueProduct = document.querySelector('[data-product-id = "90801074"] .js-item-name')
 boxUniqueProduct.style.webkitLineClamp ='initial'
 }
-</script>
 
 /* <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -432,10 +422,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) --> */
 
-
-
-<!-- USER HOT MAP-->
-<script type='text/javascript'>
 window.__lo_site_id = 317861;
 
 (function() {
@@ -443,24 +429,17 @@ var wa = document.createElement('script'); wa.type = 'text/javascript'; wa.async
 wa.src = 'https://d10lpsik1i8c69.cloudfront.net/w.js';
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wa, s);
  })();
-</script>
-<!-- USER HOT MAP-->
 
-<!-- CLARITY-->
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "9gf6syah47");
-</script>
-<!-- End CLARITY-->
+(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "9gf6syah47");
 
 /* COMO USAR TU ROTOMOP PAGE */
-<script>
+
 if (window.location.href === 'https://www.virulana.com.ar/como-usar-tu-rotomop/') {
      const userContent = document.querySelector('.user-content');
      const rotomopContainer = userContent.querySelector('.container');
      rotomopContainer.classList.add('rotomop-video-container')
 }
-</script>
