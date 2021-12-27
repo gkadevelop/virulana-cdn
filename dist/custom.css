@@ -1,0 +1,427 @@
+
+::selection {
+	background-color: #87bb34;
+	color: #fff;
+}
+
+a {
+	outline: 0 !important;
+	outline: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Poppins", sans-serif !important;
+	font-weight: 600 !important;
+	line-height: 1;
+	margin-bottom: 20px;
+}
+
+.btn-primary {
+	font-weight: 600 !important;
+	color: #fff !important;
+}
+
+.nav-list-link {
+	font-size: 15px !important;
+}
+
+.utilities-item .social-icon svg {
+	display: none !important;
+}
+
+.js-home-slider-container .container {
+	width: 100% !important;
+	min-width: 100% !important;
+	margin: 0 !important;
+}
+
+.section-welcome-home h2.h1 {
+	font-family: "Poppins", sans-serif !important;
+	font-weight: 500;
+	line-height: 50px;
+}
+
+.section-welcome-home p {
+	font-family: "Poppins", sans-serif !important;
+	font-weight: 400 !important;
+	font-size: 18px !important;
+}
+
+.template-home h3.title-line, #related-products h3.title-line {
+	font-size: 23px;
+	text-transform: none !important;
+}
+
+.js-swiper-featured-next, .js-swiper-featured-prev, .js-swiper-related-next, .js-swiper-related-prev, .js-swiper-new-next, .js-swiper-new-prev {
+	background: transparent !important;
+}
+
+.js-offer-label {
+	background: #5171e8 !important;
+}
+
+.js-price-display {
+	color: #333 !important;
+	font-weight: 600 !important;
+}
+
+.form-select option:nth-child(3), .form-select option:nth-child(4), .form-select option:nth-child(5), .form-select option:nth-child(6) {
+	display: none !important;
+}
+
+.product-description h5.form-label {
+	font-size: 16px !important;
+	font-weight: 600 !important;
+}
+
+.breadcrumbs {
+	font-size: 14px !important;
+}
+
+.breadcrumbs .divider {
+	border: 0 !important;
+	border: none !important;
+}
+
+.breadcrumbs .active {
+	color: #87bb34 !important;
+}
+
+.breadcrumbs a:hover {
+	text-decoration: underline !important;
+}
+
+.js-hide-footer-while-scrolling {
+	background: #020202 !important;
+}
+
+.js-hide-footer-while-scrolling h4.h3, .js-newsletter h3 {
+	font-family: "Poppins", sans-serif !important;
+	font-size: 21px !important;
+	font-weight: 600 !important;
+}
+
+.js-hide-footer-while-scrolling p, .js-hide-footer-while-scrolling a, .contact-item {
+	font-size: 16px !important;
+}
+
+.contact-page>.container>div>div:first-child {
+	display: none;
+}
+
+.footer-legal {
+	padding: 15px !important;
+}
+
+.footer-legal .text-center {
+	font-size: 15px !important;
+}
+
+.footer-legal a {
+	font-size: 15px !important;
+	color: #87bb34 !important;
+}
+
+.js-hide-footer-while-scrolling a:hover {
+	text-decoration: none !important;
+}
+
+.powered-by-logo {
+	display: none;
+}
+
+.element-footer a:hover {
+	color: #87bb34 !important;
+}
+
+.social-icon svg {
+	font-size: 30px !important;
+}
+
+.js-item-description.item-description.item-description-large.position-relative.w-100 {
+	border-top: 1px solid #e8e8e8;
+}
+
+input.js-search-input.form-control.form-control-invert.p-3.pr-5.search-input {
+	background-color: lightgray;
+}
+
+input.js-search-input.form-control.form-control-invert.p-3.pr-5.search-input::placeholder {
+	color: gray;
+}
+
+div.institutional {
+	background-size: cover;
+}
+
+.nav-desktop {
+	background: #e11f1c !important;
+}
+
+.head-light .nav-desktop .nav-list-link:hover {
+	border-bottom: 4px solid #790806;
+}
+
+.head-light .nav-desktop-list>.item-with-subitems.active>.nav-item-container>.nav-list-link {
+	border-bottom: 4px solid #790806;
+}
+
+.nav-desktop .nav-item .nav-list-link {
+	color: white;
+	font-weight: 800 !important;
+}
+
+.nav-desktop .desktop-list-subitems .nav-item-desktop .nav-list-link {
+	color: #3c3c3c;
+	font-weight: 500 !important;
+}
+
+.nav-desktop .desktop-list-subitems .nav-item-desktop .nav-list-link:hover {
+	border-bottom: initial;
+}
+
+header .btn-hamburger {
+	background-color: #e11f1c;
+	border: 2px solid #e11f1c;
+}
+
+.search-suggest {
+	background-color: white !important;
+}
+
+.form-label {
+	opacity: .8;
+}
+
+@media (min-width:300px) {
+	.container--announce {
+		top: calc(65vh - 130px);
+	}
+	
+	user-content img.user-page-logos {
+		width: 3rem;
+	}
+	
+	.label {
+		padding: 5px;
+		font-size: 8px;
+		min-width: 75px;
+	}
+	
+	.swiper-pagination {
+		bottom: 5px !important;
+	}
+	
+	.swiper-pagination-bullet {
+		width: 10px;
+		height: 10px;
+	}
+	
+	.swiper-pagination-bullet:before {
+		width: 4px !important;
+		height: 4px !important;
+		margin: 1px !important;
+	}
+}
+
+@media (min-width:768px) {
+	.container--announce {
+		top: 75vh;
+	}
+	
+	.user-page-logos {
+		width: 5rem;
+	}
+	
+	.label {
+		font-size: 10px;
+		min-width: 90px;
+	}
+	
+	.modal-cart-big {
+		width: 50vw;
+		padding: 30px 50px;
+	}
+	
+	.modal-active {
+		right: 50vw;
+	}
+	
+	.swiper-pagination {
+		bottom: 10px !important;
+	}
+	
+	.swiper-pagination-bullet {
+		width: 15px;
+		height: 15px;
+	}
+	
+	.swiper-pagination-bullet:before {
+		width: 9px !important;
+		height: 9px !important;
+		margin: 1px !important;
+	}
+	
+	.item-product .item-description .p-md-4 {
+		padding: 0 1.5rem !important;
+	}
+}
+
+@media (min-width:1024px) {
+	.container--announce {
+		top: calc(85vh - 3rem);
+	}
+	
+	.form-label {
+		font-size: .8rem;
+	}
+}
+
+.js-newsletter .text-politics {
+	font-size: 12px !important;
+}
+
+.js-newsletter .link-politics {
+	font-size: 12px !important;
+}
+
+.link-politics {
+	color: #87bb34 !important;
+}
+
+.js-newsletter .link-politics:hover {
+	color: #fff !important;
+}
+
+.container--cookies {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	bottom: 0;
+	z-index: 1050;
+	background: rgba(0, 0, 0, .5);
+	display: flex;
+	flex-direction: column;
+}
+
+.container--announce {
+	background: #87bb34;
+	color: white;
+	padding: 1rem;
+	position: sticky;
+}
+
+#btn__cookies {
+	padding: .8rem;
+	border-radius: 5px;
+	border: none;
+	background: lightgray;
+}
+
+.p-optin div.p-header, .p-optin .p-body button, button.p-open {
+	background: #87bb34;
+	color: #fff;
+}
+
+.p-optin .p-body button:hover, button.p-open:hover {
+	background: #00aee8;
+	opacity: .8;
+}
+
+.p-optin div.p-body p, .p-optin div.p-field label span, .p-optin .p-body .p-success {
+	color: #696969;
+}
+
+#optin-XHaqiPQV {
+	margin-top: 1rem;
+	display: none;
+}
+
+#optin-leAAF5oM {
+	display: none;
+}
+
+.container-contactoption {
+	text-align: center;
+}
+
+.contact-page_btn {
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.contact-page_icon {
+	width: 8rem;
+	margin: 1rem 0;
+}
+
+#reviewsapp-image-submit {
+	display: none;
+}
+
+.container__cyber {
+	margin-bottom: 0 !important;
+}
+
+.banner__collections {
+	width: 100%;
+	height: 14vw;
+}
+
+.banner__collections.cyber-banner {
+	background: url("//d2r9epyceweg5n.cloudfront.net/stores/001/702/414/rte/Virulana_BlackFriday_Categoria (1).jpg") no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.products__cyber .js-product-table .js-item-product[data-product-id="90802926"] {
+	order: 7;
+}
+
+.products__cyber .js-product-table .js-item-product[data-product-id="90802243"] {
+	order: 4;
+}
+
+.products__cyber .js-product-table [data-product-id="90803181"] {
+	order: 8;
+}
+
+.products__cyber .js-product-table .js-item-product[data-product-id="102517053"] {
+	order: 5;
+}
+
+.products__cyber .js-product-table .js-item-product[data-product-id="102516594"] {
+	order: 6;
+}
+
+.products__cyber .js-product-table .js-item-product[data-product-id="102515159"] {
+	order: 2;
+}
+
+.products__cyber .js-product-table .js-item-product[data-product-id="90801880"] {
+	order: 3;
+}
+
+.products__cyber .js-product-table .js-item-product[data-product-id="102515636"] {
+	order: 1;
+}
+
+#cart-shipping-container .opacity-80, #product-shipping-container .opacity-80 {
+	display: none;
+}
+
+.shipping-options-container .shipping-method-item-desc {
+	display: none !important;
+}
+
+.labels .js-offer-label {
+	background: #000 !important;
+}
+
+.item-price-container {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
