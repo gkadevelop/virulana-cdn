@@ -315,10 +315,6 @@ buttons[i].classList.add("col-12")
 /*------------TOGGLE DISPLAY LOGIN/SIGNUP FORM------*/
 let checkArr = document.getElementsByClassName('checkmailing')
 let arr = [...checkArr]
-let loginUrl = "https://www.virulana.com.ar/account/login/"
-let loginUrl2 = "https://virulana.com.ar/account/login/"
-let signupUrl ="https://www.virulana.com.ar/account/register/"
-let signupUrl2 ="https://virulana.com.ar/account/register/"
 
 if((window.location.href === loginUrl || window.location.href === signupUrl)||(window.location.href === loginUrl2 || window.location.href === signupUrl2)){
 const toggleDisplay = () => {
