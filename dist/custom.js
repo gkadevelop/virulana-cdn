@@ -310,7 +310,7 @@ buttons[i].classList.add("col-12")
 }
 }
 
-<script type="text/javascript" src="https://optin.myperfit.com/res/js/virulana/leAAF5oM.js"></script>
+/*<script type="text/javascript" src="https://optin.myperfit.com/res/js/virulana/leAAF5oM.js"></script>*/
 
 /*------------TOGGLE DISPLAY LOGIN/SIGNUP FORM------*/
 let checkArr = document.getElementsByClassName('checkmailing')
@@ -443,3 +443,4 @@ if (window.location.href === 'https://www.virulana.com.ar/como-usar-tu-rotomop/'
      const rotomopContainer = userContent.querySelector('.container');
      rotomopContainer.classList.add('rotomop-video-container')
 }
+
